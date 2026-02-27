@@ -1,0 +1,7 @@
+{
+  "name": "platform-tools",
+  "version": "1.0.0",
+  "description": "Platform engineering tools — FastMCP server scaffolding commands and security review skill",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/platform-skills"
+}

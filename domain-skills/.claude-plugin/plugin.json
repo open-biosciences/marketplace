@@ -1,0 +1,7 @@
+{
+  "name": "domain-skills",
+  "version": "1.0.0",
+  "description": "Six life sciences research skills covering genomics, proteomics, pharmacology, clinical research, CRISPR, and knowledge graph construction",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-skills"
+}
