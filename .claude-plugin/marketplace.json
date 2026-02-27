@@ -1,0 +1,117 @@
+{
+  "name": "open-biosciences",
+  "owner": {
+    "name": "Open Biosciences"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "MCP servers and skills for AI-powered life sciences research"
+  },
+  "plugins": [
+    {
+      "name": "hgnc",
+      "source": "./hgnc",
+      "description": "HUGO Gene Nomenclature Committee — gene symbol search and lookup via HGNC CURIEs",
+      "category": "life-sciences",
+      "tags": ["genomics", "gene-nomenclature", "hgnc"]
+    },
+    {
+      "name": "uniprot",
+      "source": "./uniprot",
+      "description": "UniProt protein knowledgebase — protein search and lookup via UniProtKB accessions",
+      "category": "life-sciences",
+      "tags": ["proteomics", "proteins", "uniprot"]
+    },
+    {
+      "name": "chembl",
+      "source": "./chembl",
+      "description": "ChEMBL bioactivity database — compound search, lookup, and batch retrieval",
+      "category": "life-sciences",
+      "tags": ["pharmacology", "compounds", "chembl"]
+    },
+    {
+      "name": "opentargets",
+      "source": "./opentargets",
+      "description": "Open Targets Platform — target search, lookup, and disease-target associations",
+      "category": "life-sciences",
+      "tags": ["drug-targets", "associations", "opentargets"]
+    },
+    {
+      "name": "string",
+      "source": "./string",
+      "description": "STRING protein interaction database — protein search, interactions, and network images",
+      "category": "life-sciences",
+      "tags": ["protein-interactions", "networks", "string"]
+    },
+    {
+      "name": "biogrid",
+      "source": "./biogrid",
+      "description": "BioGRID interaction repository — gene search and genetic/protein interactions",
+      "category": "life-sciences",
+      "tags": ["interactions", "genetics", "biogrid"]
+    },
+    {
+      "name": "ensembl",
+      "source": "./ensembl",
+      "description": "Ensembl genome browser — gene search, lookup, and transcript retrieval",
+      "category": "life-sciences",
+      "tags": ["genomics", "transcripts", "ensembl"]
+    },
+    {
+      "name": "entrez",
+      "source": "./entrez",
+      "description": "NCBI Entrez Gene — gene search, lookup, and PubMed cross-references",
+      "category": "life-sciences",
+      "tags": ["genomics", "pubmed", "ncbi"]
+    },
+    {
+      "name": "pubchem",
+      "source": "./pubchem",
+      "description": "PubChem compound database — compound search and detailed lookup",
+      "category": "life-sciences",
+      "tags": ["chemistry", "compounds", "pubchem"]
+    },
+    {
+      "name": "iuphar",
+      "source": "./iuphar",
+      "description": "IUPHAR/BPS Guide to Pharmacology — ligand and target search and lookup",
+      "category": "life-sciences",
+      "tags": ["pharmacology", "ligands", "receptors"]
+    },
+    {
+      "name": "wikipathways",
+      "source": "./wikipathways",
+      "description": "WikiPathways biological pathway database — pathway search, lookup, and component analysis",
+      "category": "life-sciences",
+      "tags": ["pathways", "systems-biology", "wikipathways"]
+    },
+    {
+      "name": "clinicaltrials",
+      "source": "./clinicaltrials",
+      "description": "ClinicalTrials.gov — trial search, details, and location information",
+      "category": "life-sciences",
+      "tags": ["clinical-trials", "medicine", "clinicaltrials"]
+    },
+    {
+      "name": "domain-skills",
+      "source": "./domain-skills",
+      "description": "Six life sciences research skills — genomics, proteomics, pharmacology, clinical, CRISPR, and graph-builder",
+      "category": "skills",
+      "tags": ["skills", "research", "life-sciences"]
+    },
+    {
+      "name": "platform-tools",
+      "source": "./platform-tools",
+      "description": "Platform engineering tools — FastMCP scaffolding commands and security review skill",
+      "category": "skills",
+      "tags": ["scaffold", "security", "platform"]
+    },
+    {
+      "name": "speckit",
+      "source": "./speckit",
+      "description": "SpecKit SDLC workflow — 9 specification-driven development commands",
+      "category": "skills",
+      "tags": ["sdlc", "specifications", "governance"]
+    }
+  ]
+}
