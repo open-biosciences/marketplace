@@ -1,0 +1,16 @@
+{
+  "name": "WikiPathways",
+  "version": "1.0.0",
+  "description": "WikiPathways biological pathway database — pathway search, lookup, and component analysis",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "wikipathways_search_pathways",
+    "wikipathways_get_pathway",
+    "wikipathways_get_pathways_for_gene",
+    "wikipathways_get_pathway_components"
+  ]
+}

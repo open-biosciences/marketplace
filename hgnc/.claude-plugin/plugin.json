@@ -1,0 +1,14 @@
+{
+  "name": "HGNC",
+  "version": "1.0.0",
+  "description": "HUGO Gene Nomenclature Committee — gene symbol search and lookup",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "hgnc_search_genes",
+    "hgnc_get_gene"
+  ]
+}

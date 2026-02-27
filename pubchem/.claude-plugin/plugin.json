@@ -1,0 +1,14 @@
+{
+  "name": "PubChem",
+  "version": "1.0.0",
+  "description": "PubChem compound database — compound search and detailed lookup",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "pubchem_search_compounds",
+    "pubchem_get_compound"
+  ]
+}

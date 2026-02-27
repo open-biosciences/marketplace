@@ -1,0 +1,14 @@
+{
+  "name": "UniProt",
+  "version": "1.0.0",
+  "description": "UniProt protein knowledgebase — protein search and lookup",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "uniprot_search_proteins",
+    "uniprot_get_protein"
+  ]
+}
