@@ -1,0 +1,15 @@
+{
+  "name": "ClinicalTrials",
+  "version": "1.0.0",
+  "description": "ClinicalTrials.gov — trial search, details, and location information",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "clinicaltrials_search_trials",
+    "clinicaltrials_get_trial",
+    "clinicaltrials_get_trial_locations"
+  ]
+}

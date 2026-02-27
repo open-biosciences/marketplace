@@ -1,0 +1,15 @@
+{
+  "name": "Open Targets",
+  "version": "1.0.0",
+  "description": "Open Targets Platform — target search, lookup, and disease-target associations",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "opentargets_search_targets",
+    "opentargets_get_target",
+    "opentargets_get_associations"
+  ]
+}

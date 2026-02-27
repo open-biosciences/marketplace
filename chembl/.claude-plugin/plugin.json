@@ -1,0 +1,15 @@
+{
+  "name": "ChEMBL",
+  "version": "1.0.0",
+  "description": "ChEMBL bioactivity database — compound search, lookup, and batch retrieval",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "chembl_search_compounds",
+    "chembl_get_compound",
+    "chembl_get_compounds_batch"
+  ]
+}

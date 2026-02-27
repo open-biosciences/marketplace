@@ -1,0 +1,15 @@
+{
+  "name": "STRING",
+  "version": "1.0.0",
+  "description": "STRING protein interaction database — protein search, interactions, and network images",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "string_search_proteins",
+    "string_get_interactions",
+    "string_get_network_image_url"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "IUPHAR",
+  "version": "1.0.0",
+  "description": "IUPHAR/BPS Guide to Pharmacology — ligand and target search and lookup",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "iuphar_search_ligands",
+    "iuphar_get_ligand",
+    "iuphar_search_targets",
+    "iuphar_get_target"
+  ]
+}

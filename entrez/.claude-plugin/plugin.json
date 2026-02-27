@@ -1,0 +1,15 @@
+{
+  "name": "Entrez",
+  "version": "1.0.0",
+  "description": "NCBI Entrez Gene — gene search, lookup, and PubMed cross-references",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "entrez_search_genes",
+    "entrez_get_gene",
+    "entrez_get_pubmed_links"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "BioGRID",
+  "version": "1.0.0",
+  "description": "BioGRID interaction repository — gene search and genetic/protein interactions",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-mcp",
+  "mcp": {
+    "url": "https://biosciences-mcp.fastmcp.app/mcp"
+  },
+  "tools": [
+    "biogrid_search_genes",
+    "biogrid_get_interactions"
+  ]
+}
