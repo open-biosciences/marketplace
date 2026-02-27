@@ -1,14 +1,14 @@
 {
-  "name": "HGNC",
+  "name": "hgnc",
   "version": "1.0.0",
-  "description": "HUGO Gene Nomenclature Committee — gene symbol search and lookup",
+  "description": "HUGO Gene Nomenclature Committee — gene symbol search and lookup via HGNC CURIEs",
   "author": { "name": "Open Biosciences" },
   "repository": "https://github.com/open-biosciences/biosciences-mcp",
   "mcp": {
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "hgnc_search_genes",
-    "hgnc_get_gene"
+    { "name": "hgnc_search_genes", "description": "Fuzzy search for genes by name or symbol. Returns ranked candidates with HGNC CURIEs." },
+    { "name": "hgnc_get_gene", "description": "Lookup a gene by resolved HGNC CURIE (e.g., HGNC:1100). Returns full gene record." }
   ]
 }

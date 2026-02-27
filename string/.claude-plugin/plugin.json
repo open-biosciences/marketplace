@@ -1,5 +1,5 @@
 {
-  "name": "STRING",
+  "name": "string",
   "version": "1.0.0",
   "description": "STRING protein interaction database — protein search, interactions, and network images",
   "author": { "name": "Open Biosciences" },
@@ -8,8 +8,8 @@
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "string_search_proteins",
-    "string_get_interactions",
-    "string_get_network_image_url"
+    { "name": "string_search_proteins", "description": "Fuzzy search for proteins in STRING by name. Returns ranked candidates with STRING identifiers." },
+    { "name": "string_get_interactions", "description": "Get protein-protein interactions for a STRING identifier (e.g., 9606.ENSP00000269305)." },
+    { "name": "string_get_network_image_url", "description": "Get a network visualization image URL for a set of STRING proteins." }
   ]
 }

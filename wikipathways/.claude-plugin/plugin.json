@@ -1,5 +1,5 @@
 {
-  "name": "WikiPathways",
+  "name": "wikipathways",
   "version": "1.0.0",
   "description": "WikiPathways biological pathway database — pathway search, lookup, and component analysis",
   "author": { "name": "Open Biosciences" },
@@ -8,9 +8,9 @@
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "wikipathways_search_pathways",
-    "wikipathways_get_pathway",
-    "wikipathways_get_pathways_for_gene",
-    "wikipathways_get_pathway_components"
+    { "name": "wikipathways_search_pathways", "description": "Search for biological pathways in WikiPathways by keyword." },
+    { "name": "wikipathways_get_pathway", "description": "Lookup a pathway by WikiPathways ID (e.g., WP534). Returns full pathway record." },
+    { "name": "wikipathways_get_pathways_for_gene", "description": "Find all pathways containing a given gene." },
+    { "name": "wikipathways_get_pathway_components", "description": "Get all molecular components (genes, metabolites) in a pathway." }
   ]
 }

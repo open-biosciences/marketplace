@@ -1,5 +1,5 @@
 {
-  "name": "BioGRID",
+  "name": "biogrid",
   "version": "1.0.0",
   "description": "BioGRID interaction repository — gene search and genetic/protein interactions",
   "author": { "name": "Open Biosciences" },
@@ -8,7 +8,7 @@
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "biogrid_search_genes",
-    "biogrid_get_interactions"
+    { "name": "biogrid_search_genes", "description": "Search for genes in BioGRID by gene symbol. Returns matching gene entries." },
+    { "name": "biogrid_get_interactions", "description": "Get genetic and protein interactions for a gene symbol from BioGRID." }
   ]
 }
