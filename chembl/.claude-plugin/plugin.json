@@ -1,5 +1,5 @@
 {
-  "name": "ChEMBL",
+  "name": "chembl",
   "version": "1.0.0",
   "description": "ChEMBL bioactivity database — compound search, lookup, and batch retrieval",
   "author": { "name": "Open Biosciences" },
@@ -8,8 +8,8 @@
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "chembl_search_compounds",
-    "chembl_get_compound",
-    "chembl_get_compounds_batch"
+    { "name": "chembl_search_compounds", "description": "Fuzzy search for compounds by name. Returns ranked candidates with ChEMBL IDs." },
+    { "name": "chembl_get_compound", "description": "Lookup a compound by resolved ChEMBL ID (e.g., CHEMBL25). Returns full compound record." },
+    { "name": "chembl_get_compounds_batch", "description": "Batch lookup multiple compounds by ChEMBL IDs. Returns full records for each." }
   ]
 }

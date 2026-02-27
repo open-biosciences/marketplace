@@ -1,5 +1,5 @@
 {
-  "name": "Entrez",
+  "name": "entrez",
   "version": "1.0.0",
   "description": "NCBI Entrez Gene — gene search, lookup, and PubMed cross-references",
   "author": { "name": "Open Biosciences" },
@@ -8,8 +8,8 @@
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "entrez_search_genes",
-    "entrez_get_gene",
-    "entrez_get_pubmed_links"
+    { "name": "entrez_search_genes", "description": "Search for genes in NCBI Entrez by name or symbol. Returns ranked candidates with NCBI Gene IDs." },
+    { "name": "entrez_get_gene", "description": "Lookup a gene by NCBI Gene ID (e.g., NCBIGene:7157). Returns full gene record." },
+    { "name": "entrez_get_pubmed_links", "description": "Get PubMed article links for a given NCBI Gene ID." }
   ]
 }

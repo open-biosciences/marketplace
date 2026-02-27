@@ -1,5 +1,5 @@
 {
-  "name": "Ensembl",
+  "name": "ensembl",
   "version": "1.0.0",
   "description": "Ensembl genome browser — gene search, lookup, and transcript retrieval",
   "author": { "name": "Open Biosciences" },
@@ -8,8 +8,8 @@
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "ensembl_search_genes",
-    "ensembl_get_gene",
-    "ensembl_get_transcript"
+    { "name": "ensembl_search_genes", "description": "Fuzzy search for genes in Ensembl by name or symbol. Returns ranked candidates with Ensembl Gene IDs." },
+    { "name": "ensembl_get_gene", "description": "Lookup a gene by Ensembl Gene ID (e.g., ENSG00000012048). Returns full gene record." },
+    { "name": "ensembl_get_transcript", "description": "Lookup a transcript by Ensembl Transcript ID. Returns full transcript record." }
   ]
 }

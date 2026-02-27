@@ -1,5 +1,5 @@
 {
-  "name": "IUPHAR",
+  "name": "iuphar",
   "version": "1.0.0",
   "description": "IUPHAR/BPS Guide to Pharmacology — ligand and target search and lookup",
   "author": { "name": "Open Biosciences" },
@@ -8,9 +8,9 @@
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "iuphar_search_ligands",
-    "iuphar_get_ligand",
-    "iuphar_search_targets",
-    "iuphar_get_target"
+    { "name": "iuphar_search_ligands", "description": "Search for ligands in IUPHAR/BPS by name. Returns ranked candidates." },
+    { "name": "iuphar_get_ligand", "description": "Lookup a ligand by IUPHAR ligand ID (e.g., 2713). Returns full ligand record." },
+    { "name": "iuphar_search_targets", "description": "Search for pharmacological targets in IUPHAR/BPS by name." },
+    { "name": "iuphar_get_target", "description": "Lookup a target by IUPHAR target ID. Returns full target record." }
   ]
 }

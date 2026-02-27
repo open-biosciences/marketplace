@@ -1,5 +1,5 @@
 {
-  "name": "Open Targets",
+  "name": "opentargets",
   "version": "1.0.0",
   "description": "Open Targets Platform — target search, lookup, and disease-target associations",
   "author": { "name": "Open Biosciences" },
@@ -8,8 +8,8 @@
     "url": "https://biosciences-mcp.fastmcp.app/mcp"
   },
   "tools": [
-    "opentargets_search_targets",
-    "opentargets_get_target",
-    "opentargets_get_associations"
+    { "name": "opentargets_search_targets", "description": "Fuzzy search for drug targets by name or gene. Returns ranked candidates with Ensembl Gene IDs." },
+    { "name": "opentargets_get_target", "description": "Lookup a target by Ensembl Gene ID (e.g., ENSG00000141510). Returns full target record." },
+    { "name": "opentargets_get_associations", "description": "Get disease-target associations for a given target or disease." }
   ]
 }
