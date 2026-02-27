@@ -6,12 +6,12 @@ Six life sciences research skills for Claude Code, covering the major domains of
 
 | Skill | Domain | Description |
 |-------|--------|-------------|
-| `lifesciences-genomics` | Genomics | Gene identification, variant analysis, cross-database gene mapping |
-| `lifesciences-proteomics` | Proteomics | Protein function, interactions, structural analysis |
-| `lifesciences-pharmacology` | Pharmacology | Drug-target interactions, compound analysis, pharmacological profiling |
-| `lifesciences-clinical` | Clinical | Clinical trial search, disease-target associations, translational research |
-| `lifesciences-crispr` | CRISPR | CRISPR guide design, off-target analysis, gene editing workflows |
-| `lifesciences-graph-builder` | Knowledge Graphs | Multi-database entity resolution and relationship mapping |
+| `biosciences-genomics` | Genomics | Gene identification, variant analysis, cross-database gene mapping |
+| `biosciences-proteomics` | Proteomics | Protein function, interactions, structural analysis |
+| `biosciences-pharmacology` | Pharmacology | Drug-target interactions, compound analysis, pharmacological profiling |
+| `biosciences-clinical` | Clinical | Clinical trial search, disease-target associations, translational research |
+| `biosciences-crispr` | CRISPR | CRISPR guide design, off-target analysis, gene editing workflows |
+| `biosciences-graph-builder` | Knowledge Graphs | Multi-database entity resolution and relationship mapping |
 
 ## Source
 
