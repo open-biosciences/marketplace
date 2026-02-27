@@ -32,6 +32,6 @@ Plugin marketplace packaging all Open Biosciences platform assets into Anthropic
 | Plugin | Source |
 |--------|--------|
 | 12 MCP servers | `biosciences-mcp` (gateway.py tool mappings) |
-| domain-skills | `biosciences-skills` (.claude/skills/lifesciences-*) |
+| domain-skills | `biosciences-skills` (.claude/skills/biosciences-*) |
 | platform-tools | `platform-skills` (.claude/commands + .claude/skills) |
 | speckit | `biosciences-program` (.claude/commands/speckit.*) |
