@@ -1,0 +1,7 @@
+{
+  "name": "speckit",
+  "version": "1.0.0",
+  "description": "SpecKit specification-driven development workflow — 9 SDLC commands for systematic feature development",
+  "author": { "name": "Open Biosciences" },
+  "repository": "https://github.com/open-biosciences/biosciences-program"
+}
