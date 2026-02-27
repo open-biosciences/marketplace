@@ -9,7 +9,7 @@
   },
   "tools": [
     { "name": "iuphar_search_ligands", "description": "Search for ligands in IUPHAR/BPS by name. Returns ranked candidates." },
-    { "name": "iuphar_get_ligand", "description": "Lookup a ligand by IUPHAR ligand ID (e.g., 2713). Returns full ligand record." },
+    { "name": "iuphar_get_ligand", "description": "Lookup a ligand by IUPHAR CURIE (e.g., IUPHAR:2713). Returns full ligand record." },
     { "name": "iuphar_search_targets", "description": "Search for pharmacological targets in IUPHAR/BPS by name." },
     { "name": "iuphar_get_target", "description": "Lookup a target by IUPHAR target ID. Returns full target record." }
   ]

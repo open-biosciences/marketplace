@@ -9,7 +9,7 @@
   },
   "tools": [
     { "name": "string_search_proteins", "description": "Fuzzy search for proteins in STRING by name. Returns ranked candidates with STRING identifiers." },
-    { "name": "string_get_interactions", "description": "Get protein-protein interactions for a STRING identifier (e.g., 9606.ENSP00000269305)." },
+    { "name": "string_get_interactions", "description": "Get protein-protein interactions for a STRING CURIE (e.g., STRING:9606.ENSP00000269305)." },
     { "name": "string_get_network_image_url", "description": "Get a network visualization image URL for a set of STRING proteins." }
   ]
 }

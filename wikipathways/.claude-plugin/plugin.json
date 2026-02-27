@@ -9,7 +9,7 @@
   },
   "tools": [
     { "name": "wikipathways_search_pathways", "description": "Search for biological pathways in WikiPathways by keyword." },
-    { "name": "wikipathways_get_pathway", "description": "Lookup a pathway by WikiPathways ID (e.g., WP534). Returns full pathway record." },
+    { "name": "wikipathways_get_pathway", "description": "Lookup a pathway by WikiPathways CURIE (e.g., WP:WP534). Returns full pathway record." },
     { "name": "wikipathways_get_pathways_for_gene", "description": "Find all pathways containing a given gene." },
     { "name": "wikipathways_get_pathway_components", "description": "Get all molecular components (genes, metabolites) in a pathway." }
   ]

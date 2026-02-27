@@ -50,7 +50,7 @@ All MCP servers enforce a bi-modal query workflow:
 - **Base URL**: `https://string-db.org/api`
 - **Auth**: None (public API)
 - **Rate Limits**: No published limit; be courteous
-- **CURIE Format**: `9606.ENSP00000269305` (organism prefix + Ensembl Protein ID)
+- **CURIE Format**: `STRING:9606.ENSP00000269305` (STRING prefix + organism + Ensembl Protein ID)
 - **Tools**: `string_search_proteins`, `string_get_interactions`, `string_get_network_image_url`
 
 ### BioGRID
@@ -68,21 +68,21 @@ All MCP servers enforce a bi-modal query workflow:
 - **Base URL**: `https://www.ebi.ac.uk/chembl/api/data`
 - **Auth**: None (public API)
 - **Rate Limits**: No published limit; be courteous
-- **CURIE Format**: `CHEMBL25` (ChEMBL ID)
+- **CURIE Format**: `CHEMBL:25` (ChEMBL ID)
 - **Tools**: `chembl_search_compounds`, `chembl_get_compound`, `chembl_get_compounds_batch`
 
 ### PubChem
 - **Base URL**: `https://pubchem.ncbi.nlm.nih.gov/rest/pug`
 - **Auth**: None (public API)
 - **Rate Limits**: 5 requests/second
-- **CURIE Format**: `CID:2244` (PubChem Compound ID)
+- **CURIE Format**: `PubChem:CID2244` (PubChem Compound ID)
 - **Tools**: `pubchem_search_compounds`, `pubchem_get_compound`
 
 ### IUPHAR/BPS Guide to Pharmacology
 - **Base URL**: `https://www.guidetopharmacology.org/services`
 - **Auth**: None (public API)
 - **Rate Limits**: No published limit; be courteous
-- **CURIE Format**: Numeric ligand/target ID (e.g., `2713`)
+- **CURIE Format**: `IUPHAR:2713` (IUPHAR ligand/target ID)
 - **Tools**: `iuphar_search_ligands`, `iuphar_get_ligand`, `iuphar_search_targets`, `iuphar_get_target`
 
 ---
@@ -104,7 +104,7 @@ All MCP servers enforce a bi-modal query workflow:
 - **Base URL**: `https://www.wikipathways.org/json`
 - **Auth**: None (public API)
 - **Rate Limits**: No published limit; be courteous
-- **CURIE Format**: `WP534` (WikiPathways ID)
+- **CURIE Format**: `WP:WP534` (WikiPathways ID)
 - **Tools**: `wikipathways_search_pathways`, `wikipathways_get_pathway`, `wikipathways_get_pathways_for_gene`, `wikipathways_get_pathway_components`
 
 ---
@@ -115,5 +115,5 @@ All MCP servers enforce a bi-modal query workflow:
 - **Base URL**: `https://clinicaltrials.gov/api/v2`
 - **Auth**: None (public API)
 - **Rate Limits**: No published limit; be courteous
-- **CURIE Format**: `NCT00461032` (NCT number)
+- **CURIE Format**: `NCT:00461032` (NCT number)
 - **Tools**: `clinicaltrials_search_trials`, `clinicaltrials_get_trial`, `clinicaltrials_get_trial_locations`

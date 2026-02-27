@@ -9,7 +9,7 @@
   },
   "tools": [
     { "name": "chembl_search_compounds", "description": "Fuzzy search for compounds by name. Returns ranked candidates with ChEMBL IDs." },
-    { "name": "chembl_get_compound", "description": "Lookup a compound by resolved ChEMBL ID (e.g., CHEMBL25). Returns full compound record." },
+    { "name": "chembl_get_compound", "description": "Lookup a compound by resolved ChEMBL CURIE (e.g., CHEMBL:25). Returns full compound record." },
     { "name": "chembl_get_compounds_batch", "description": "Batch lookup multiple compounds by ChEMBL IDs. Returns full records for each." }
   ]
 }

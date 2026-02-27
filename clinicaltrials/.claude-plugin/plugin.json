@@ -9,7 +9,7 @@
   },
   "tools": [
     { "name": "clinicaltrials_search_trials", "description": "Search for clinical trials on ClinicalTrials.gov by condition, intervention, or keyword." },
-    { "name": "clinicaltrials_get_trial", "description": "Lookup a clinical trial by NCT number (e.g., NCT00461032). Returns full trial record." },
+    { "name": "clinicaltrials_get_trial", "description": "Lookup a clinical trial by NCT CURIE (e.g., NCT:00461032). Returns full trial record." },
     { "name": "clinicaltrials_get_trial_locations", "description": "Get location/site information for a clinical trial." }
   ]
 }

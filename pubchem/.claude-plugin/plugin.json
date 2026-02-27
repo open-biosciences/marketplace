@@ -9,6 +9,6 @@
   },
   "tools": [
     { "name": "pubchem_search_compounds", "description": "Fuzzy search for compounds in PubChem by name. Returns ranked candidates with PubChem CIDs." },
-    { "name": "pubchem_get_compound", "description": "Lookup a compound by PubChem CID (e.g., CID:2244). Returns full compound record." }
+    { "name": "pubchem_get_compound", "description": "Lookup a compound by PubChem CURIE (e.g., PubChem:CID2244). Returns full compound record." }
   ]
 }

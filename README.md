@@ -22,16 +22,16 @@ All server plugins connect through a single unified gateway.
 |--------|----------|-------|---------------|
 | `hgnc` | [HGNC](https://www.genenames.org/) | `hgnc_search_genes`, `hgnc_get_gene` | `HGNC:1100` |
 | `uniprot` | [UniProt](https://www.uniprot.org/) | `uniprot_search_proteins`, `uniprot_get_protein` | `UniProtKB:P38398` |
-| `chembl` | [ChEMBL](https://www.ebi.ac.uk/chembl/) | `chembl_search_compounds`, `chembl_get_compound`, `chembl_get_compounds_batch` | `CHEMBL25` |
+| `chembl` | [ChEMBL](https://www.ebi.ac.uk/chembl/) | `chembl_search_compounds`, `chembl_get_compound`, `chembl_get_compounds_batch` | `CHEMBL:25` |
 | `opentargets` | [Open Targets](https://platform.opentargets.org/) | `opentargets_search_targets`, `opentargets_get_target`, `opentargets_get_associations` | `ENSG00000141510` |
-| `string` | [STRING](https://string-db.org/) | `string_search_proteins`, `string_get_interactions`, `string_get_network_image_url` | `9606.ENSP00000269305` |
+| `string` | [STRING](https://string-db.org/) | `string_search_proteins`, `string_get_interactions`, `string_get_network_image_url` | `STRING:9606.ENSP00000269305` |
 | `biogrid` | [BioGRID](https://thebiogrid.org/) | `biogrid_search_genes`, `biogrid_get_interactions` | Gene symbol |
 | `ensembl` | [Ensembl](https://www.ensembl.org/) | `ensembl_search_genes`, `ensembl_get_gene`, `ensembl_get_transcript` | `ENSG00000012048` |
 | `entrez` | [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene) | `entrez_search_genes`, `entrez_get_gene`, `entrez_get_pubmed_links` | `NCBIGene:7157` |
-| `pubchem` | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | `pubchem_search_compounds`, `pubchem_get_compound` | `CID:2244` |
-| `iuphar` | [IUPHAR/GtoPdb](https://www.guidetopharmacology.org/) | `iuphar_search_ligands`, `iuphar_get_ligand`, `iuphar_search_targets`, `iuphar_get_target` | `2713` |
-| `wikipathways` | [WikiPathways](https://www.wikipathways.org/) | `wikipathways_search_pathways`, `wikipathways_get_pathway`, `wikipathways_get_pathways_for_gene`, `wikipathways_get_pathway_components` | `WP534` |
-| `clinicaltrials` | [ClinicalTrials.gov](https://clinicaltrials.gov/) | `clinicaltrials_search_trials`, `clinicaltrials_get_trial`, `clinicaltrials_get_trial_locations` | `NCT00461032` |
+| `pubchem` | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | `pubchem_search_compounds`, `pubchem_get_compound` | `PubChem:CID2244` |
+| `iuphar` | [IUPHAR/GtoPdb](https://www.guidetopharmacology.org/) | `iuphar_search_ligands`, `iuphar_get_ligand`, `iuphar_search_targets`, `iuphar_get_target` | `IUPHAR:2713` |
+| `wikipathways` | [WikiPathways](https://www.wikipathways.org/) | `wikipathways_search_pathways`, `wikipathways_get_pathway`, `wikipathways_get_pathways_for_gene`, `wikipathways_get_pathway_components` | `WP:WP534` |
+| `clinicaltrials` | [ClinicalTrials.gov](https://clinicaltrials.gov/) | `clinicaltrials_search_trials`, `clinicaltrials_get_trial`, `clinicaltrials_get_trial_locations` | `NCT:00461032` |
 
 ### Skill & Command Plugins (3)
 
