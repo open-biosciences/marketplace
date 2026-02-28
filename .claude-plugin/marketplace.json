@@ -112,6 +112,13 @@
       "description": "SpecKit SDLC workflow — 9 specification-driven development commands",
       "category": "skills",
       "tags": ["sdlc", "specifications", "governance"]
+    },
+    {
+      "name": "biosciences-rag-pipeline",
+      "source": "../biosciences-rag-pipeline",
+      "description": "End-to-end RAG evaluation pipeline — ingestion, testset generation, retrieval comparison, and RAGAS evaluation with HuggingFace dataset publishing",
+      "category": "pipelines",
+      "tags": ["rag", "evaluation", "ragas", "huggingface"]
     }
   ]
 }
